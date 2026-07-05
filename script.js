@@ -1,4 +1,4 @@
-const yes = document.getElementById("yes");
+kconst yes = document.getElementById("yes");
 const no = document.getElementById("no");
 const text = document.getElementById("text");
 
@@ -55,14 +55,14 @@ yes.onclick = async () => {
     text.innerHTML = "❤️ Awww, díky ❤️";
 
     try {
-        await fetch("https://ntfy.sh/OOMMGG", {
+        await fetch("https://ntfy.sh/bf", {
             method: "POST",
             headers: {
-                "Title": "VYHRAL JSI :D",
+                "Title": "klikl ano",
                 "Priority": "5",
                 "Tags": "heart,partying_face"
             },
-            body: "REKLA ANO!"
+            body: "neklo klikl ano"
         });
     } catch (e) {
         console.log(e);
